@@ -12,3 +12,8 @@ function setBestCustomer() {
     bestCustomer = "not bob";
 
 }
+
+// Define a function to overwrite the result of another function
+function overwriteBestCustomer() {
+    bestCustomer = "maybe bob";
+}

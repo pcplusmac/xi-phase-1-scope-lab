@@ -2,12 +2,12 @@
   "stats": {
     "suites": 6,
     "tests": 5,
-    "passes": 3,
+    "passes": 4,
     "pending": 0,
-    "failures": 2,
-    "start": "2023-10-18T05:08:21.866Z",
-    "end": "2023-10-18T05:08:22.113Z",
-    "duration": 247
+    "failures": 1,
+    "start": "2023-10-18T05:11:48.743Z",
+    "end": "2023-10-18T05:11:48.989Z",
+    "duration": 246
   },
   "tests": [
     {
@@ -20,7 +20,7 @@
     {
       "title": "modifies the customerName variable",
       "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -36,10 +36,7 @@
       "fullTitle": "Fix the Scope overwriteBestCustomer() overwrites the best customer",
       "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: overwriteBestCustomer is not defined\n    at Context.<anonymous> (test/indexTest.js:31:7)\n    at process.processImmediate (node:internal/timers:476:21)",
-        "message": "overwriteBestCustomer is not defined"
-      }
+      "err": {}
     },
     {
       "title": "unsuccessfully tries to reassign the least favorite customer",
@@ -54,16 +51,6 @@
   ],
   "pending": [],
   "failures": [
-    {
-      "title": "overwrites the best customer",
-      "fullTitle": "Fix the Scope overwriteBestCustomer() overwrites the best customer",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: overwriteBestCustomer is not defined\n    at Context.<anonymous> (test/indexTest.js:31:7)\n    at process.processImmediate (node:internal/timers:476:21)",
-        "message": "overwriteBestCustomer is not defined"
-      }
-    },
     {
       "title": "unsuccessfully tries to reassign the least favorite customer",
       "fullTitle": "Fix the Scope changeLeastFavoriteCustomer() unsuccessfully tries to reassign the least favorite customer",
@@ -86,7 +73,7 @@
     {
       "title": "modifies the customerName variable",
       "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -94,6 +81,13 @@
       "title": "setBestCustomer",
       "fullTitle": "Fix the Scope setBestCustomer() setBestCustomer",
       "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "overwrites the best customer",
+      "fullTitle": "Fix the Scope overwriteBestCustomer() overwrites the best customer",
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     }
