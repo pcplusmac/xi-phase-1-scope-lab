@@ -2,18 +2,18 @@
   "stats": {
     "suites": 6,
     "tests": 5,
-    "passes": 1,
+    "passes": 2,
     "pending": 0,
-    "failures": 4,
-    "start": "2023-10-18T04:59:29.046Z",
-    "end": "2023-10-18T04:59:29.302Z",
-    "duration": 256
+    "failures": 3,
+    "start": "2023-10-18T05:02:39.291Z",
+    "end": "2023-10-18T05:02:39.652Z",
+    "duration": 361
   },
   "tests": [
     {
       "title": "returns the customerName",
       "fullTitle": "Fix the Scope declare customerName to be bob in global scope returns the customerName",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -22,10 +22,7 @@
       "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: upperCaseCustomerName is not defined\n    at Context.<anonymous> (test/indexTest.js:14:7)\n    at process.processImmediate (node:internal/timers:476:21)",
-        "message": "upperCaseCustomerName is not defined"
-      }
+      "err": {}
     },
     {
       "title": "setBestCustomer",
@@ -61,16 +58,6 @@
   "pending": [],
   "failures": [
     {
-      "title": "modifies the customerName variable",
-      "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: upperCaseCustomerName is not defined\n    at Context.<anonymous> (test/indexTest.js:14:7)\n    at process.processImmediate (node:internal/timers:476:21)",
-        "message": "upperCaseCustomerName is not defined"
-      }
-    },
-    {
       "title": "setBestCustomer",
       "fullTitle": "Fix the Scope setBestCustomer() setBestCustomer",
       "duration": 0,
@@ -105,7 +92,14 @@
     {
       "title": "returns the customerName",
       "fullTitle": "Fix the Scope declare customerName to be bob in global scope returns the customerName",
-      "duration": 1,
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "modifies the customerName variable",
+      "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     }
